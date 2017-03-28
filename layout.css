@@ -1,0 +1,78 @@
+body {
+	background-color:black;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: small;
+	margin: 0;
+	padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#container 	{
+	background-color: gray;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: small;
+	width: 768px;
+	margin: auto;
+	padding: 10000px, 10000px, 10000px, 10000px,;
+}
+#header {
+	background-color: white;
+	font-size: small;
+	margin: 0;
+	padding: 0;
+	width: 767px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 108px; 
+	height: 108px;
+	display: block;
+}
+#header h1:hover {
+	color:green;
+}
+#header img {
+	float: left;
+	margin: 10px, 10px, 10px, 10px;
+	position: absolute;
+	display: block;
+}	
+}
+#content {
+	margin: auto;
+	width: 768px;
+	padding: 10px 40px 40px 20px;
+	padding-left: 100px;
+}
+#navigation {
+	background-color: #c9c7c7;
+	padding: 10px 10px 40px 10px;
+	margin: 0;
+	width: 748px;
+	height: 100%;
+	text-align: center;
+}
+#navigation ul {
+		list-style-type: none;
+		text-align: center;
+}
+#navigation ul li { 
+	display: inline; 
+	text-align: center;
+}
+.button {
+	background-color: white;
+	border: none;
+	text-decoration: none;
+	padding:10px;
+	color: black;
+	transition-property: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    Width: 120px
+}
+.button:hover {
+    background-color: black;
+	color:white;
+}
